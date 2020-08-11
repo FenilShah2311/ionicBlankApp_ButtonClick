@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  btn_click="Not Clicked";
+  onButtonClick(){
+      this.btn_click="Clicked";
+  }
 
 }
